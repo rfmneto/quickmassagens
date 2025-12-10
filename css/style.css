@@ -14,6 +14,7 @@
   --text-color: #333333;
   --text-light: #666666;
   --white: #ffffff;
+  --yellow-custom: #e3d5b3;
   --shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   --shadow-hover: 0 8px 30px rgba(0, 0, 0, 0.15);
   --border-radius: 12px;
@@ -150,7 +151,11 @@ img {
   align-items: center;
   min-height: 100vh;
   padding: 120px 0 80px;
-  background: linear-gradient(135deg, var(--light-color) 0%, var(--white) 100%);
+  background: linear-gradient(
+    135deg,
+    var(--light-color) 0%,
+    var(--yellow-custom) 100%
+  );
 }
 
 .hero-content {
@@ -263,7 +268,12 @@ img {
 
 /* Nossa História */
 .historia {
-  background: var(--white);
+  /* background: var(--yellow-custom); */
+  background: linear-gradient(
+    135deg,
+    var(--light-color) 0%,
+    var(--yellow-custom) 100%
+  );
 }
 
 .historia-content {
@@ -313,7 +323,7 @@ img {
 }
 
 .tecnica-destaque {
-  background: linear-gradient(135deg, var(--light-color), var(--white));
+  background: linear-gradient(135deg, var(--light-color), var(--yellow-custom));
   padding: 25px;
   border-radius: var(--border-radius);
   margin-top: 2rem;
@@ -336,7 +346,11 @@ img {
 
 /* Como Funciona */
 .como-funciona {
-  background: linear-gradient(135deg, var(--light-color) 0%, var(--white) 100%);
+  background: linear-gradient(
+    135deg,
+    var(--light-color) 0%,
+    var(--yellow-custom) 100%
+  );
 }
 
 .funciona-intro {
@@ -391,7 +405,12 @@ img {
 
 /* Diferenciais */
 .diferenciais {
-  background: var(--white);
+  /* background: var(--white); */
+  background: linear-gradient(
+    135deg,
+    var(--light-color) 0%,
+    var(--yellow-custom) 100%
+  );
 }
 
 .diferencial-principal {
@@ -458,7 +477,11 @@ img {
 
 /* Depoimentos */
 .depoimentos {
-  background: linear-gradient(135deg, var(--light-color) 0%, var(--white) 100%);
+  background: linear-gradient(
+    135deg,
+    var(--light-color) 0%,
+    var(--yellow-custom) 100%
+  );
 }
 
 .depoimentos-grid {
@@ -531,7 +554,13 @@ img {
 
 /* Contato */
 .contato {
-  background: var(--white);
+  /* background: var(--white); */
+
+  background: linear-gradient(
+    135deg,
+    var(--light-color) 0%,
+    var(--yellow-custom) 100%
+  );
 }
 
 .contato-content {
